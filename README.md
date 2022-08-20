@@ -19,5 +19,7 @@ For example transfer the style of vangogh into the monalisa painting:
 python main.py monalisa.png vangogh.png
 ```
 
+The resulted image is saved in the same path as the script main.py
+
 ## Source
 Adapted from [the tutorial](https://www.tensorflow.org/tutorials/generative/style_transfer)
