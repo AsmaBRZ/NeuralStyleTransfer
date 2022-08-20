@@ -1,7 +1,7 @@
 # Neural Style Transfer
 Draw an image in the style of another one as presented in the paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576). 
 
-(results.png)
+![1](results.png)
 
 ## Development Environment
 1、Conda 4.13.0
