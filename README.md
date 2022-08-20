@@ -4,7 +4,9 @@ Draw an image in the style of another one as presented in the paper [A Neural Al
 
 ## Development Environment
 1、Conda 4.13.0
+
 2、Python 3.9.12
+
 3、Tensorflow 2.9.1
 
 ## How to use the code
