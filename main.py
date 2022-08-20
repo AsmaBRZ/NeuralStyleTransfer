@@ -191,9 +191,8 @@ for n in range(epochs):
   print("Epoch:",n, "Style loss:", style_loss, "Content loss:", content_loss, "Loss:", loss)
 print("Best loss:", best_loss)
 
-img_name = content_path.split(".")[0]+"_"+style_path.split(".")[0]+"_"+str(epochs)
-styled_image.save(img_name+".png")
-styled_image.resize((int(ori_width.numpy()), int(ori_height.numpy())), PIL.Image.LANCZOS).save(img_name+"_upsampled"+".png")
+styled_image.save("result.png")
+styled_image.resize((int(ori_width.numpy()), int(ori_height.numpy())), PIL.Image.LANCZOS).save("result_upsampled"+".png")
 
 end = time.time()
 print("Total time: {:.1f}".format(end-start))
